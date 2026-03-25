@@ -1,0 +1,6 @@
+Cost Component,Amount ($M/yr),Notes
+Private savings from urban siting (electricity),120,Actual allocation cheaper than policy-aligned; market rewards current siting
+Carbon externality (unpriced),1040,20.3M tonnes CO2 avoided @ EPA $51/tonne if 8892 MW shifted to renewable zones
+Foregone renewable revenue (curtailment),335,8 TWh curtailed in 2024 @ average ERCOT wholesale prices (Modo Energy)
+Total social cost of misalignment,1375,Carbon externality + foregone renewable revenue
+Net cost of misalignment,1255,Social costs exceed private savings

@@ -1,19 +1,26 @@
 # 6QQMN303
 
-Capstone repository for analysing spatial mismatch between data centre demand and renewable energy supply in Texas (ERCOT).
+Capstone repository: Texas data centre siting and renewable energy spatial mismatch (ERCOT).
 
-## What this repository contains
+**GitHub:** [https://github.com/pablomeijer/6QQMN303](https://github.com/pablomeijer/6QQMN303)
 
-- Core scripts, data extracts, and figures used for the report
-- Appendix outputs supporting methods and sensitivity checks
-- Reproducible tables for cost model and RAI sensitivity
+## Repository layout
 
-## Data-use note
+| Folder | Contents |
+|--------|----------|
+| `data/` | Shareable CSV outputs and GIS extracts; see `data/README.md` for required Excel inputs to rerun appendix scripts. |
+| `scripts/` | Main notebooks and Python utilities (cost model notebook, maps, visuals, curtailment plots, RAI notebook). |
+| `appendix/` | Appendix A–D: formulas, sensitivity, cost model, pipeline summary, stakeholder scripts and generated tables (CSV/MD). |
 
-This public repository includes scripts and datasets I am permitted to share for replication.
+Run Python appendix scripts from the **repository root** (`6QQMN303/`), e.g. `python appendix/appendix_b/cost_model_appendix.py`.
 
-The web scraper code and underlying scraped raw records are not included. Those materials belong to Oxford Economics. I received permission to use them for this capstone analysis, but not to redistribute them.
+## What is not published
 
-## Repository
+Oxford Economics web scraper code and raw scraped records are **not** included (proprietary; permission to use for research, not redistribution).
 
-https://github.com/pablomeijer/6QQMN303
+## Replication
+
+1. Clone the repo.
+2. Add Excel inputs listed in `data/README.md` to `data/` (or project root — scripts check both).
+3. Install Python dependencies (pandas, numpy, matplotlib; geopandas/shapely for map scripts).
+4. Run appendix scripts or open `scripts/cost_optimisation_model.ipynb`.
