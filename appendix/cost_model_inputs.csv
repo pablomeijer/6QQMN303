@@ -1,0 +1,12 @@
+parameter,value,unit
+EPA social cost of carbon (baseline),51.0,$/tonne
+EPA social cost of carbon (sensitivity),36.0,$/tonne
+EIA emissions factor,0.435,tCO2/MWh
+Average zonal DAM price 2025 - LZ_NORTH,33.4,$/MWh
+Average zonal DAM price 2025 - LZ_WEST,42.72,$/MWh
+Average zonal DAM price 2025 - HB_PAN,25.44,$/MWh
+Renewable capacity used for weighting - West Texas,14591.3,MW
+Renewable capacity used for weighting - Panhandle,12799.4,MW
+Derived shift allocation to LZ_WEST,4741.0,MW
+Derived shift allocation to HB_PAN,4159.0,MW
+Total shift,8900.0,MW
